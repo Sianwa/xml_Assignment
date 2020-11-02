@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Students>
+    <Student id="99761">
+        <Full_Name>Jane Doe</Full_Name>
+        <Age>19</Age>
+        <Course>Hospitalit</Course>
+        <Current_year>2</Current_year>
+        <YearofGraduation>2023-01-01</YearofGraduation>
+    </Student>
+    <Student id="100052">
+        <Full_Name>Kelsey Mak</Full_Name>
+        <Age>21</Age>
+        <Course>Computer S</Course>
+        <Current_year>4</Current_year>
+        <YearofGraduation>2021-01-01</YearofGraduation>
+    </Student>
+    <Student id="100231">
+        <Full_Name>John Doe</Full_Name>
+        <Age>21</Age>
+        <Course>Law</Course>
+        <Current_year>4</Current_year>
+        <YearofGraduation>2021-01-01</YearofGraduation>
+    </Student>
+    <Student id="100292">
+        <Full_Name>Marvin Gay</Full_Name>
+        <Age>20</Age>
+        <Course>Financial </Course>
+        <Current_year>3</Current_year>
+        <YearofGraduation>2022-01-01</YearofGraduation>
+    </Student>
+    <Student id="102231">
+        <Full_Name>Mary Jane</Full_Name>
+        <Age>21</Age>
+        <Course>Electrical</Course>
+        <Current_year>4</Current_year>
+        <YearofGraduation>2021-01-01</YearofGraduation>
+    </Student>
+</Students>

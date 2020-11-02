@@ -10,6 +10,7 @@ package com.example.xmlAssignment;
         import javax.xml.transform.TransformerFactory;
         import javax.xml.transform.dom.DOMSource;
         import javax.xml.transform.stream.StreamResult;
+        import java.io.File;
         import java.io.StringWriter;
         import java.sql.*;
 
@@ -69,11 +70,11 @@ public class xmlDB {
         transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
         transformer.setOutputProperty(OutputKeys.INDENT, "yes");
         StringWriter sw = new StringWriter();
-        StreamResult sr = new StreamResult(sw);
+        StreamResult sr = new StreamResult(new File("Student.xml"));
         transformer.transform(domSource, sr);
 
         //Print results in XML format
-        System.out.println(sw.toString());
+        System.out.println("Done");
 
         //close DB Connection
         conn.close();

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.5" class="java.beans.XMLDecoder">
+ <object class="com.example.xmlAssignment.User">
+  <void property="age">
+   <int>21</int>
+  </void>
+  <void property="fullname">
+   <string>Kelsey Makale</string>
+  </void>
+  <void property="programmingLanguage">
+   <string>Java</string>
+  </void>
+  <void property="stdID">
+   <int>100052</int>
+  </void>
+ </object>
+</java>
